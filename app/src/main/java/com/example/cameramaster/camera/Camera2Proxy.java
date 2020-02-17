@@ -443,7 +443,7 @@ public class Camera2Proxy extends BaseCameraProxy {
                         mCaptureSession.setRepeatingRequest(mPreviewBuilder.build(), null, mHandler);
                     } catch (Exception e) {
                         e.printStackTrace();
-                        Log.e(TAG, "捕获的异常" + e.toString());
+                        Log.e(TAG, "捕获的异常：" + e.toString());
                     }
                 }
 
